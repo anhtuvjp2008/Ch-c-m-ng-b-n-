@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: red;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        video {
+            margin: 20px auto;
+            display: block;
+            max-width: 100%; /* Để video có thể co giãn theo kích thước màn hình */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><b>Chúc Mừng Bạn 20/10💐</b></h1>
+        <p>Welcome to QN!</p>
+        <button onclick="showConfetti()"> Lời Chúc:
+            Chào mừng bạn đã đến với tháng 10 chưa cười đã tới ngày 20. Sau đây là những lời chúc tốt đẹp dành cho bạn 
+            Nhân ngày 20/10, chúc bạn sức khỏe 
+            Chúc bạn bình an 
+            Chúc bạn cầu đựợc uoc thấy 
+            Chúc bạn Tiền vào như nước, tiền ra như gió! Chúc bạn 8386 nhá
+            QN MÃI ĐỈNH; MÃI ĐỈNH; MÃI ĐỈNH LUÔN
+        </button>
+    </div>
+
+    <video controls autoplay loop>
+        <source src="Tikmate.io_7425494317323537672.mp4" type="video/mp4"> <!-- Đường dẫn video -->
+        Your browser does not support the video tag.
+    </video>
+
+    <canvas id="confettiCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
